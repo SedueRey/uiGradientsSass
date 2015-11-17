@@ -1,0 +1,1029 @@
+@mixin ui-gradientSass($name, $direction, $prefixes : true) {
+	@if $name == 'Pizelex' {
+		@if $prefixes {
+			background: #114357;  
+			background: -webkit-linear-gradient(#{$direction}, #114357 0%,#F29492 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #114357 0%, #F29492 100%);  
+		}
+		background: linear-gradient(#{$direction}, #114357 0%,#F29492 100%); 
+	}
+	@else if $name == 'Haikus' {
+		@if $prefixes {
+			background: #fd746c;  
+			background: -webkit-linear-gradient(#{$direction}, #fd746c 0%,#ff9068 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #fd746c 0%, #ff9068 100%);  
+		}
+		background: linear-gradient(#{$direction}, #fd746c 0%,#ff9068 100%); 
+	}
+	@else if $name == 'Pale Wood' {
+		@if $prefixes {
+			background: #eacda3;  
+			background: -webkit-linear-gradient(#{$direction}, #eacda3 0%,#d6ae7b 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #eacda3 0%, #d6ae7b 100%);  
+		}
+		background: linear-gradient(#{$direction}, #eacda3 0%,#d6ae7b 100%); 
+	}
+	@else if $name == 'Purplin' {
+		@if $prefixes {
+			background: #6a3093;  
+			background: -webkit-linear-gradient(#{$direction}, #6a3093 0%,#a044ff 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #6a3093 0%, #a044ff 100%);  
+		}
+		background: linear-gradient(#{$direction}, #6a3093 0%,#a044ff 100%); 
+	}
+	@else if $name == 'Inbox' {
+		@if $prefixes {
+			background: #457fca;  
+			background: -webkit-linear-gradient(#{$direction}, #457fca 0%,#5691c8 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #457fca 0%, #5691c8 100%);  
+		}
+		background: linear-gradient(#{$direction}, #457fca 0%,#5691c8 100%); 
+	}
+	@else if $name == 'Blush' {
+		@if $prefixes {
+			background: #B24592;  
+			background: -webkit-linear-gradient(#{$direction}, #B24592 0%,#F15F79 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #B24592 0%, #F15F79 100%);  
+		}
+		background: linear-gradient(#{$direction}, #B24592 0%,#F15F79 100%); 
+	}
+	@else if $name == 'Back to the Future' {
+		@if $prefixes {
+			background: #C02425;  
+			background: -webkit-linear-gradient(#{$direction}, #C02425 0%,#F0CB35 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #C02425 0%, #F0CB35 100%);  
+		}
+		background: linear-gradient(#{$direction}, #C02425 0%,#F0CB35 100%); 
+	}
+	@else if $name == 'Poncho' {
+		@if $prefixes {
+			background: #403A3E;  
+			background: -webkit-linear-gradient(#{$direction}, #403A3E 0%,#BE5869 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #403A3E 0%, #BE5869 100%);  
+		}
+		background: linear-gradient(#{$direction}, #403A3E 0%,#BE5869 100%); 
+	}
+	@else if $name == 'Green and Blue' {
+		@if $prefixes {
+			background: #c2e59c;  
+			background: -webkit-linear-gradient(#{$direction}, #c2e59c 0%,#64b3f4 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #c2e59c 0%, #64b3f4 100%);  
+		}
+		background: linear-gradient(#{$direction}, #c2e59c 0%,#64b3f4 100%); 
+	}
+	@else if $name == 'Light Orange' {
+		@if $prefixes {
+			background: #FFB75E;  
+			background: -webkit-linear-gradient(#{$direction}, #FFB75E 0%,#ED8F03 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #FFB75E 0%, #ED8F03 100%);  
+		}
+		background: linear-gradient(#{$direction}, #FFB75E 0%,#ED8F03 100%); 
+	}
+	@else if $name == 'Netflix' {
+		@if $prefixes {
+			background: #8E0E00;  
+			background: -webkit-linear-gradient(#{$direction}, #8E0E00 0%,#1F1C18 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #8E0E00 0%, #1F1C18 100%);  
+		}
+		background: linear-gradient(#{$direction}, #8E0E00 0%,#1F1C18 100%); 
+	}
+	@else if $name == 'Little Leaf' {
+		@if $prefixes {
+			background: #76b852;  
+			background: -webkit-linear-gradient(#{$direction}, #76b852 0%,#8DC26F 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #76b852 0%, #8DC26F 100%);  
+		}
+		background: linear-gradient(#{$direction}, #76b852 0%,#8DC26F 100%); 
+	}
+	@else if $name == 'Deep Purple' {
+		@if $prefixes {
+			background: #673AB7;  
+			background: -webkit-linear-gradient(#{$direction}, #673AB7 0%,#512DA8 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #673AB7 0%, #512DA8 100%);  
+		}
+		background: linear-gradient(#{$direction}, #673AB7 0%,#512DA8 100%); 
+	}
+	@else if $name == 'Back To Earth' {
+		@if $prefixes {
+			background: #00C9FF;  
+			background: -webkit-linear-gradient(#{$direction}, #00C9FF 0%,#92FE9D 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #00C9FF 0%, #92FE9D 100%);  
+		}
+		background: linear-gradient(#{$direction}, #00C9FF 0%,#92FE9D 100%); 
+	}
+	@else if $name == 'Master Card' {
+		@if $prefixes {
+			background: #f46b45;  
+			background: -webkit-linear-gradient(#{$direction}, #f46b45 0%,#eea849 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #f46b45 0%, #eea849 100%);  
+		}
+		background: linear-gradient(#{$direction}, #f46b45 0%,#eea849 100%); 
+	}
+	@else if $name == 'Clear Sky' {
+		@if $prefixes {
+			background: #005C97;  
+			background: -webkit-linear-gradient(#{$direction}, #005C97 0%,#363795 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #005C97 0%, #363795 100%);  
+		}
+		background: linear-gradient(#{$direction}, #005C97 0%,#363795 100%); 
+	}
+	@else if $name == 'Passion' {
+		@if $prefixes {
+			background: #e53935;  
+			background: -webkit-linear-gradient(#{$direction}, #e53935 0%,#e35d5b 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #e53935 0%, #e35d5b 100%);  
+		}
+		background: linear-gradient(#{$direction}, #e53935 0%,#e35d5b 100%); 
+	}
+	@else if $name == 'Timber' {
+		@if $prefixes {
+			background: #fc00ff;  
+			background: -webkit-linear-gradient(#{$direction}, #fc00ff 0%,#00dbde 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #fc00ff 0%, #00dbde 100%);  
+		}
+		background: linear-gradient(#{$direction}, #fc00ff 0%,#00dbde 100%); 
+	}
+	@else if $name == 'Between Night and Day' {
+		@if $prefixes {
+			background: #2c3e50;  
+			background: -webkit-linear-gradient(#{$direction}, #2c3e50 0%,#3498db 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #2c3e50 0%, #3498db 100%);  
+		}
+		background: linear-gradient(#{$direction}, #2c3e50 0%,#3498db 100%); 
+	}
+	@else if $name == 'Sage Persuasion' {
+		@if $prefixes {
+			background: #CCCCB2;  
+			background: -webkit-linear-gradient(#{$direction}, #CCCCB2 0%,#757519 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #CCCCB2 0%, #757519 100%);  
+		}
+		background: linear-gradient(#{$direction}, #CCCCB2 0%,#757519 100%); 
+	}
+	@else if $name == 'Lizard' {
+		@if $prefixes {
+			background: #304352;  
+			background: -webkit-linear-gradient(#{$direction}, #304352 0%,#d7d2cc 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #304352 0%, #d7d2cc 100%);  
+		}
+		background: linear-gradient(#{$direction}, #304352 0%,#d7d2cc 100%); 
+	}
+	@else if $name == 'Piglet' {
+		@if $prefixes {
+			background: #ee9ca7;  
+			background: -webkit-linear-gradient(#{$direction}, #ee9ca7 0%,#ffdde1 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #ee9ca7 0%, #ffdde1 100%);  
+		}
+		background: linear-gradient(#{$direction}, #ee9ca7 0%,#ffdde1 100%); 
+	}
+	@else if $name == 'Dark Knight' {
+		@if $prefixes {
+			background: #BA8B02;  
+			background: -webkit-linear-gradient(#{$direction}, #BA8B02 0%,#181818 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #BA8B02 0%, #181818 100%);  
+		}
+		background: linear-gradient(#{$direction}, #BA8B02 0%,#181818 100%); 
+	}
+	@else if $name == 'Curiosity blue' {
+		@if $prefixes {
+			background: #525252;  
+			background: -webkit-linear-gradient(#{$direction}, #525252 0%,#3d72b4 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #525252 0%, #3d72b4 100%);  
+		}
+		background: linear-gradient(#{$direction}, #525252 0%,#3d72b4 100%); 
+	}
+	@else if $name == 'Ukraine' {
+		@if $prefixes {
+			background: #004FF9;  
+			background: -webkit-linear-gradient(#{$direction}, #004FF9 0%,#FFF94C 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #004FF9 0%, #FFF94C 100%);  
+		}
+		background: linear-gradient(#{$direction}, #004FF9 0%,#FFF94C 100%); 
+	}
+	@else if $name == 'Green to dark' {
+		@if $prefixes {
+			background: #6A9113;  
+			background: -webkit-linear-gradient(#{$direction}, #6A9113 0%,#141517 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #6A9113 0%, #141517 100%);  
+		}
+		background: linear-gradient(#{$direction}, #6A9113 0%,#141517 100%); 
+	}
+	@else if $name == 'Fresh Turboscent' {
+		@if $prefixes {
+			background: #F1F2B5;  
+			background: -webkit-linear-gradient(#{$direction}, #F1F2B5 0%,#135058 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #F1F2B5 0%, #135058 100%);  
+		}
+		background: linear-gradient(#{$direction}, #F1F2B5 0%,#135058 100%); 
+	}
+	@else if $name == 'Koko Caramel' {
+		@if $prefixes {
+			background: #D1913C;  
+			background: -webkit-linear-gradient(#{$direction}, #D1913C 0%,#FFD194 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #D1913C 0%, #FFD194 100%);  
+		}
+		background: linear-gradient(#{$direction}, #D1913C 0%,#FFD194 100%); 
+	}
+	@else if $name == 'Virgin America' {
+		@if $prefixes {
+			background: #7b4397;  
+			background: -webkit-linear-gradient(#{$direction}, #7b4397 0%,#dc2430 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #7b4397 0%, #dc2430 100%);  
+		}
+		background: linear-gradient(#{$direction}, #7b4397 0%,#dc2430 100%); 
+	}
+	@else if $name == 'Portrait' {
+		@if $prefixes {
+			background: #8e9eab;  
+			background: -webkit-linear-gradient(#{$direction}, #8e9eab 0%,#eef2f3 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #8e9eab 0%, #eef2f3 100%);  
+		}
+		background: linear-gradient(#{$direction}, #8e9eab 0%,#eef2f3 100%); 
+	}
+	@else if $name == 'Turquoise flow' {
+		@if $prefixes {
+			background: #136a8a;  
+			background: -webkit-linear-gradient(#{$direction}, #136a8a 0%,#267871 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #136a8a 0%, #267871 100%);  
+		}
+		background: linear-gradient(#{$direction}, #136a8a 0%,#267871 100%); 
+	}
+	@else if $name == 'Vine' {
+		@if $prefixes {
+			background: #00bf8f;  
+			background: -webkit-linear-gradient(#{$direction}, #00bf8f 0%,#001510 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #00bf8f 0%, #001510 100%);  
+		}
+		background: linear-gradient(#{$direction}, #00bf8f 0%,#001510 100%); 
+	}
+	@else if $name == 'Flickr' {
+		@if $prefixes {
+			background: #ff0084;  
+			background: -webkit-linear-gradient(#{$direction}, #ff0084 0%,#33001b 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #ff0084 0%, #33001b 100%);  
+		}
+		background: linear-gradient(#{$direction}, #ff0084 0%,#33001b 100%); 
+	}
+	@else if $name == 'Instagram' {
+		@if $prefixes {
+			background: #517fa4;  
+			background: -webkit-linear-gradient(#{$direction}, #517fa4 0%,#243949 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #517fa4 0%, #243949 100%);  
+		}
+		background: linear-gradient(#{$direction}, #517fa4 0%,#243949 100%); 
+	}
+	@else if $name == 'Twitch' {
+		@if $prefixes {
+			background: #6441A5;  
+			background: -webkit-linear-gradient(#{$direction}, #6441A5 0%,#2a0845 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #6441A5 0%, #2a0845 100%);  
+		}
+		background: linear-gradient(#{$direction}, #6441A5 0%,#2a0845 100%); 
+	}
+	@else if $name == 'Pastel Orange at the Sun' {
+		@if $prefixes {
+			background: #ffb347;  
+			background: -webkit-linear-gradient(#{$direction}, #ffb347 0%,#ffcc33 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #ffb347 0%, #ffcc33 100%);  
+		}
+		background: linear-gradient(#{$direction}, #ffb347 0%,#ffcc33 100%); 
+	}
+	@else if $name == 'Endless River' {
+		@if $prefixes {
+			background: #43cea2;  
+			background: -webkit-linear-gradient(#{$direction}, #43cea2 0%,#185a9d 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #43cea2 0%, #185a9d 100%);  
+		}
+		background: linear-gradient(#{$direction}, #43cea2 0%,#185a9d 100%); 
+	}
+	@else if $name == 'Predawn' {
+		@if $prefixes {
+			background: #FFA17F;  
+			background: -webkit-linear-gradient(#{$direction}, #FFA17F 0%,#00223E 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #FFA17F 0%, #00223E 100%);  
+		}
+		background: linear-gradient(#{$direction}, #FFA17F 0%,#00223E 100%); 
+	}
+	@else if $name == 'Purple Bliss' {
+		@if $prefixes {
+			background: #360033;  
+			background: -webkit-linear-gradient(#{$direction}, #360033 0%,#0b8793 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #360033 0%, #0b8793 100%);  
+		}
+		background: linear-gradient(#{$direction}, #360033 0%,#0b8793 100%); 
+	}
+	@else if $name == 'Talking To Mice Elf' {
+		@if $prefixes {
+			background: #948E99;  
+			background: -webkit-linear-gradient(#{$direction}, #948E99 0%,#2E1437 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #948E99 0%, #2E1437 100%);  
+		}
+		background: linear-gradient(#{$direction}, #948E99 0%,#2E1437 100%); 
+	}
+	@else if $name == 'Hersheys' {
+		@if $prefixes {
+			background: #1e130c;  
+			background: -webkit-linear-gradient(#{$direction}, #1e130c 0%,#9a8478 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #1e130c 0%, #9a8478 100%);  
+		}
+		background: linear-gradient(#{$direction}, #1e130c 0%,#9a8478 100%); 
+	}
+	@else if $name == 'Crazy Orange I' {
+		@if $prefixes {
+			background: #D38312;  
+			background: -webkit-linear-gradient(#{$direction}, #D38312 0%,#A83279 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #D38312 0%, #A83279 100%);  
+		}
+		background: linear-gradient(#{$direction}, #D38312 0%,#A83279 100%); 
+	}
+	@else if $name == 'Between The Clouds' {
+		@if $prefixes {
+			background: #73C8A9;  
+			background: -webkit-linear-gradient(#{$direction}, #73C8A9 0%,#373B44 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #73C8A9 0%, #373B44 100%);  
+		}
+		background: linear-gradient(#{$direction}, #73C8A9 0%,#373B44 100%); 
+	}
+	@else if $name == 'Metallic Toad' {
+		@if $prefixes {
+			background: #abbaab;  
+			background: -webkit-linear-gradient(#{$direction}, #abbaab 0%,#ffffff 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #abbaab 0%, #ffffff 100%);  
+		}
+		background: linear-gradient(#{$direction}, #abbaab 0%,#ffffff 100%); 
+	}
+	@else if $name == 'Martini' {
+		@if $prefixes {
+			background: #FDFC47;  
+			background: -webkit-linear-gradient(#{$direction}, #FDFC47 0%,#24FE41 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #FDFC47 0%, #24FE41 100%);  
+		}
+		background: linear-gradient(#{$direction}, #FDFC47 0%,#24FE41 100%); 
+	}
+	@else if $name == 'Friday' {
+		@if $prefixes {
+			background: #83a4d4;  
+			background: -webkit-linear-gradient(#{$direction}, #83a4d4 0%,#b6fbff 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #83a4d4 0%, #b6fbff 100%);  
+		}
+		background: linear-gradient(#{$direction}, #83a4d4 0%,#b6fbff 100%); 
+	}
+	@else if $name == 'ServQuick' {
+		@if $prefixes {
+			background: #485563;  
+			background: -webkit-linear-gradient(#{$direction}, #485563 0%,#29323c 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #485563 0%, #29323c 100%);  
+		}
+		background: linear-gradient(#{$direction}, #485563 0%,#29323c 100%); 
+	}
+	@else if $name == 'Behongo' {
+		@if $prefixes {
+			background: #52c234;  
+			background: -webkit-linear-gradient(#{$direction}, #52c234 0%,#061700 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #52c234 0%, #061700 100%);  
+		}
+		background: linear-gradient(#{$direction}, #52c234 0%,#061700 100%); 
+	}
+	@else if $name == 'SoundCloud' {
+		@if $prefixes {
+			background: #fe8c00;  
+			background: -webkit-linear-gradient(#{$direction}, #fe8c00 0%,#f83600 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #fe8c00 0%, #f83600 100%);  
+		}
+		background: linear-gradient(#{$direction}, #fe8c00 0%,#f83600 100%); 
+	}
+	@else if $name == 'Facebook Messenger' {
+		@if $prefixes {
+			background: #00c6ff;  
+			background: -webkit-linear-gradient(#{$direction}, #00c6ff 0%,#0072ff 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #00c6ff 0%, #0072ff 100%);  
+		}
+		background: linear-gradient(#{$direction}, #00c6ff 0%,#0072ff 100%); 
+	}
+	@else if $name == 'Shore' {
+		@if $prefixes {
+			background: #70e1f5;  
+			background: -webkit-linear-gradient(#{$direction}, #70e1f5 0%,#ffd194 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #70e1f5 0%, #ffd194 100%);  
+		}
+		background: linear-gradient(#{$direction}, #70e1f5 0%,#ffd194 100%); 
+	}
+	@else if $name == 'Cheer Up Emo Kid' {
+		@if $prefixes {
+			background: #556270;  
+			background: -webkit-linear-gradient(#{$direction}, #556270 0%,#FF6B6B 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #556270 0%, #FF6B6B 100%);  
+		}
+		background: linear-gradient(#{$direction}, #556270 0%,#FF6B6B 100%); 
+	}
+	@else if $name == 'Amethyst' {
+		@if $prefixes {
+			background: #9D50BB;  
+			background: -webkit-linear-gradient(#{$direction}, #9D50BB 0%,#6E48AA 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #9D50BB 0%, #6E48AA 100%);  
+		}
+		background: linear-gradient(#{$direction}, #9D50BB 0%,#6E48AA 100%); 
+	}
+	@else if $name == 'Man of Steel' {
+		@if $prefixes {
+			background: #780206;  
+			background: -webkit-linear-gradient(#{$direction}, #780206 0%,#061161 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #780206 0%, #061161 100%);  
+		}
+		background: linear-gradient(#{$direction}, #780206 0%,#061161 100%); 
+	}
+	@else if $name == 'Neon Life' {
+		@if $prefixes {
+			background: #B3FFAB;  
+			background: -webkit-linear-gradient(#{$direction}, #B3FFAB 0%,#12FFF7 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #B3FFAB 0%, #12FFF7 100%);  
+		}
+		background: linear-gradient(#{$direction}, #B3FFAB 0%,#12FFF7 100%); 
+	}
+	@else if $name == 'Teal Love' {
+		@if $prefixes {
+			background: #AAFFA9;  
+			background: -webkit-linear-gradient(#{$direction}, #AAFFA9 0%,#11FFBD 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #AAFFA9 0%, #11FFBD 100%);  
+		}
+		background: linear-gradient(#{$direction}, #AAFFA9 0%,#11FFBD 100%); 
+	}
+	@else if $name == 'Red Mist' {
+		@if $prefixes {
+			background: #000000;  
+			background: -webkit-linear-gradient(#{$direction}, #000000 0%,#e74c3c 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #000000 0%, #e74c3c 100%);  
+		}
+		background: linear-gradient(#{$direction}, #000000 0%,#e74c3c 100%); 
+	}
+	@else if $name == 'Starfall' {
+		@if $prefixes {
+			background: #F0C27B;  
+			background: -webkit-linear-gradient(#{$direction}, #F0C27B 0%,#4B1248 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #F0C27B 0%, #4B1248 100%);  
+		}
+		background: linear-gradient(#{$direction}, #F0C27B 0%,#4B1248 100%); 
+	}
+	@else if $name == 'Dance To Forget' {
+		@if $prefixes {
+			background: #FF4E50;  
+			background: -webkit-linear-gradient(#{$direction}, #FF4E50 0%,#F9D423 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #FF4E50 0%, #F9D423 100%);  
+		}
+		background: linear-gradient(#{$direction}, #FF4E50 0%,#F9D423 100%); 
+	}
+	@else if $name == 'Parklife' {
+		@if $prefixes {
+			background: #ADD100;  
+			background: -webkit-linear-gradient(#{$direction}, #ADD100 0%,#7B920A 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #ADD100 0%, #7B920A 100%);  
+		}
+		background: linear-gradient(#{$direction}, #ADD100 0%,#7B920A 100%); 
+	}
+	@else if $name == 'Cherryblossoms' {
+		@if $prefixes {
+			background: #FBD3E9;  
+			background: -webkit-linear-gradient(#{$direction}, #FBD3E9 0%,#BB377D 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #FBD3E9 0%, #BB377D 100%);  
+		}
+		background: linear-gradient(#{$direction}, #FBD3E9 0%,#BB377D 100%); 
+	}
+	@else if $name == 'Shadow Night' {
+		@if $prefixes {
+			background: #000000;  
+			background: -webkit-linear-gradient(#{$direction}, #000000 0%,#53346D 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #000000 0%, #53346D 100%);  
+		}
+		background: linear-gradient(#{$direction}, #000000 0%,#53346D 100%); 
+	}
+	@else if $name == 'Ash' {
+		@if $prefixes {
+			background: #606c88;  
+			background: -webkit-linear-gradient(#{$direction}, #606c88 0%,#3f4c6b 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #606c88 0%, #3f4c6b 100%);  
+		}
+		background: linear-gradient(#{$direction}, #606c88 0%,#3f4c6b 100%); 
+	}
+	@else if $name == 'Virgin' {
+		@if $prefixes {
+			background: #C9FFBF;  
+			background: -webkit-linear-gradient(#{$direction}, #C9FFBF 0%,#FFAFBD 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #C9FFBF 0%, #FFAFBD 100%);  
+		}
+		background: linear-gradient(#{$direction}, #C9FFBF 0%,#FFAFBD 100%); 
+	}
+	@else if $name == 'Earthly' {
+		@if $prefixes {
+			background: #649173;  
+			background: -webkit-linear-gradient(#{$direction}, #649173 0%,#DBD5A4 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #649173 0%, #DBD5A4 100%);  
+		}
+		background: linear-gradient(#{$direction}, #649173 0%,#DBD5A4 100%); 
+	}
+	@else if $name == 'Dirty Fog' {
+		@if $prefixes {
+			background: #B993D6;  
+			background: -webkit-linear-gradient(#{$direction}, #B993D6 0%,#8CA6DB 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #B993D6 0%, #8CA6DB 100%);  
+		}
+		background: linear-gradient(#{$direction}, #B993D6 0%,#8CA6DB 100%); 
+	}
+	@else if $name == 'The Strain' {
+		@if $prefixes {
+			background: #870000;  
+			background: -webkit-linear-gradient(#{$direction}, #870000 0%,#190A05 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #870000 0%, #190A05 100%);  
+		}
+		background: linear-gradient(#{$direction}, #870000 0%,#190A05 100%); 
+	}
+	@else if $name == 'Reef' {
+		@if $prefixes {
+			background: #00d2ff;  
+			background: -webkit-linear-gradient(#{$direction}, #00d2ff 0%,#3a7bd5 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #00d2ff 0%, #3a7bd5 100%);  
+		}
+		background: linear-gradient(#{$direction}, #00d2ff 0%,#3a7bd5 100%); 
+	}
+	@else if $name == 'Candy' {
+		@if $prefixes {
+			background: #D3959B;  
+			background: -webkit-linear-gradient(#{$direction}, #D3959B 0%,#BFE6BA 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #D3959B 0%, #BFE6BA 100%);  
+		}
+		background: linear-gradient(#{$direction}, #D3959B 0%,#BFE6BA 100%); 
+	}
+	@else if $name == 'Autumn' {
+		@if $prefixes {
+			background: #DAD299;  
+			background: -webkit-linear-gradient(#{$direction}, #DAD299 0%,#B0DAB9 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #DAD299 0%, #B0DAB9 100%);  
+		}
+		background: linear-gradient(#{$direction}, #DAD299 0%,#B0DAB9 100%); 
+	}
+	@else if $name == 'Winter' {
+		@if $prefixes {
+			background: #E6DADA;  
+			background: -webkit-linear-gradient(#{$direction}, #E6DADA 0%,#274046 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #E6DADA 0%, #274046 100%);  
+		}
+		background: linear-gradient(#{$direction}, #E6DADA 0%,#274046 100%); 
+	}
+	@else if $name == 'Forever Lost' {
+		@if $prefixes {
+			background: #5D4157;  
+			background: -webkit-linear-gradient(#{$direction}, #5D4157 0%,#A8CABA 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #5D4157 0%, #A8CABA 100%);  
+		}
+		background: linear-gradient(#{$direction}, #5D4157 0%,#A8CABA 100%); 
+	}
+	@else if $name == 'Almost' {
+		@if $prefixes {
+			background: #ddd6f3;  
+			background: -webkit-linear-gradient(#{$direction}, #ddd6f3 0%,#faaca8 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #ddd6f3 0%, #faaca8 100%);  
+		}
+		background: linear-gradient(#{$direction}, #ddd6f3 0%,#faaca8 100%); 
+	}
+	@else if $name == 'Moor' {
+		@if $prefixes {
+			background: #616161;  
+			background: -webkit-linear-gradient(#{$direction}, #616161 0%,#9bc5c3 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #616161 0%, #9bc5c3 100%);  
+		}
+		background: linear-gradient(#{$direction}, #616161 0%,#9bc5c3 100%); 
+	}
+	@else if $name == 'Aqualicious' {
+		@if $prefixes {
+			background: #50C9C3;  
+			background: -webkit-linear-gradient(#{$direction}, #50C9C3 0%,#96DEDA 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #50C9C3 0%, #96DEDA 100%);  
+		}
+		background: linear-gradient(#{$direction}, #50C9C3 0%,#96DEDA 100%); 
+	}
+	@else if $name == 'Misty Meadow' {
+		@if $prefixes {
+			background: #215f00;  
+			background: -webkit-linear-gradient(#{$direction}, #215f00 0%,#e4e4d9 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #215f00 0%, #e4e4d9 100%);  
+		}
+		background: linear-gradient(#{$direction}, #215f00 0%,#e4e4d9 100%); 
+	}
+	@else if $name == 'Kyoto' {
+		@if $prefixes {
+			background: #c21500;  
+			background: -webkit-linear-gradient(#{$direction}, #c21500 0%,#ffc500 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #c21500 0%, #ffc500 100%);  
+		}
+		background: linear-gradient(#{$direction}, #c21500 0%,#ffc500 100%); 
+	}
+	@else if $name == 'Sirius Tamed' {
+		@if $prefixes {
+			background: #EFEFBB;  
+			background: -webkit-linear-gradient(#{$direction}, #EFEFBB 0%,#D4D3DD 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #EFEFBB 0%, #D4D3DD 100%);  
+		}
+		background: linear-gradient(#{$direction}, #EFEFBB 0%,#D4D3DD 100%); 
+	}
+	@else if $name == 'Jonquil' {
+		@if $prefixes {
+			background: #FFEEEE;  
+			background: -webkit-linear-gradient(#{$direction}, #FFEEEE 0%,#DDEFBB 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #FFEEEE 0%, #DDEFBB 100%);  
+		}
+		background: linear-gradient(#{$direction}, #FFEEEE 0%,#DDEFBB 100%); 
+	}
+	@else if $name == 'Petrichor' {
+		@if $prefixes {
+			background: #666600;  
+			background: -webkit-linear-gradient(#{$direction}, #666600 0%,#999966 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #666600 0%, #999966 100%);  
+		}
+		background: linear-gradient(#{$direction}, #666600 0%,#999966 100%); 
+	}
+	@else if $name == 'A Lost Memory' {
+		@if $prefixes {
+			background: #DE6262;  
+			background: -webkit-linear-gradient(#{$direction}, #DE6262 0%,#FFB88C 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #DE6262 0%, #FFB88C 100%);  
+		}
+		background: linear-gradient(#{$direction}, #DE6262 0%,#FFB88C 100%); 
+	}
+	@else if $name == 'Vasily' {
+		@if $prefixes {
+			background: #e9d362;  
+			background: -webkit-linear-gradient(#{$direction}, #e9d362 0%,#333333 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #e9d362 0%, #333333 100%);  
+		}
+		background: linear-gradient(#{$direction}, #e9d362 0%,#333333 100%); 
+	}
+	@else if $name == 'Blurry Beach' {
+		@if $prefixes {
+			background: #d53369;  
+			background: -webkit-linear-gradient(#{$direction}, #d53369 0%,#cbad6d 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #d53369 0%, #cbad6d 100%);  
+		}
+		background: linear-gradient(#{$direction}, #d53369 0%,#cbad6d 100%); 
+	}
+	@else if $name == 'Namn' {
+		@if $prefixes {
+			background: #a73737;  
+			background: -webkit-linear-gradient(#{$direction}, #a73737 0%,#7a2828 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #a73737 0%, #7a2828 100%);  
+		}
+		background: linear-gradient(#{$direction}, #a73737 0%,#7a2828 100%); 
+	}
+	@else if $name == 'Day Tripper' {
+		@if $prefixes {
+			background: #f857a6;  
+			background: -webkit-linear-gradient(#{$direction}, #f857a6 0%,#ff5858 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #f857a6 0%, #ff5858 100%);  
+		}
+		background: linear-gradient(#{$direction}, #f857a6 0%,#ff5858 100%); 
+	}
+	@else if $name == 'Pinot Noir' {
+		@if $prefixes {
+			background: #4b6cb7;  
+			background: -webkit-linear-gradient(#{$direction}, #4b6cb7 0%,#182848 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #4b6cb7 0%, #182848 100%);  
+		}
+		background: linear-gradient(#{$direction}, #4b6cb7 0%,#182848 100%); 
+	}
+	@else if $name == 'Miaka' {
+		@if $prefixes {
+			background: #FC354C;  
+			background: -webkit-linear-gradient(#{$direction}, #FC354C 0%,#0ABFBC 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #FC354C 0%, #0ABFBC 100%);  
+		}
+		background: linear-gradient(#{$direction}, #FC354C 0%,#0ABFBC 100%); 
+	}
+	@else if $name == 'Army' {
+		@if $prefixes {
+			background: #414d0b;  
+			background: -webkit-linear-gradient(#{$direction}, #414d0b 0%,#727a17 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #414d0b 0%, #727a17 100%);  
+		}
+		background: linear-gradient(#{$direction}, #414d0b 0%,#727a17 100%); 
+	}
+	@else if $name == 'Shrimpy' {
+		@if $prefixes {
+			background: #e43a15;  
+			background: -webkit-linear-gradient(#{$direction}, #e43a15 0%,#e65245 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #e43a15 0%, #e65245 100%);  
+		}
+		background: linear-gradient(#{$direction}, #e43a15 0%,#e65245 100%); 
+	}
+	@else if $name == 'Influenza' {
+		@if $prefixes {
+			background: #C04848;  
+			background: -webkit-linear-gradient(#{$direction}, #C04848 0%,#480048 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #C04848 0%, #480048 100%);  
+		}
+		background: linear-gradient(#{$direction}, #C04848 0%,#480048 100%); 
+	}
+	@else if $name == 'Calm Darya' {
+		@if $prefixes {
+			background: #5f2c82;  
+			background: -webkit-linear-gradient(#{$direction}, #5f2c82 0%,#49a09d 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #5f2c82 0%, #49a09d 100%);  
+		}
+		background: linear-gradient(#{$direction}, #5f2c82 0%,#49a09d 100%); 
+	}
+	@else if $name == 'Bourbon' {
+		@if $prefixes {
+			background: #EC6F66;  
+			background: -webkit-linear-gradient(#{$direction}, #EC6F66 0%,#F3A183 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #EC6F66 0%, #F3A183 100%);  
+		}
+		background: linear-gradient(#{$direction}, #EC6F66 0%,#F3A183 100%); 
+	}
+	@else if $name == 'Stellar' {
+		@if $prefixes {
+			background: #7474BF;  
+			background: -webkit-linear-gradient(#{$direction}, #7474BF 0%,#348AC7 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #7474BF 0%, #348AC7 100%);  
+		}
+		background: linear-gradient(#{$direction}, #7474BF 0%,#348AC7 100%); 
+	}
+	@else if $name == 'Clouds' {
+		@if $prefixes {
+			background: #ECE9E6;  
+			background: -webkit-linear-gradient(#{$direction}, #ECE9E6 0%,#FFFFFF 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #ECE9E6 0%, #FFFFFF 100%);  
+		}
+		background: linear-gradient(#{$direction}, #ECE9E6 0%,#FFFFFF 100%); 
+	}
+	@else if $name == 'Moonrise' {
+		@if $prefixes {
+			background: #DAE2F8;  
+			background: -webkit-linear-gradient(#{$direction}, #DAE2F8 0%,#D6A4A4 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #DAE2F8 0%, #D6A4A4 100%);  
+		}
+		background: linear-gradient(#{$direction}, #DAE2F8 0%,#D6A4A4 100%); 
+	}
+	@else if $name == 'Peach' {
+		@if $prefixes {
+			background: #ED4264;  
+			background: -webkit-linear-gradient(#{$direction}, #ED4264 0%,#FFEDBC 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #ED4264 0%, #FFEDBC 100%);  
+		}
+		background: linear-gradient(#{$direction}, #ED4264 0%,#FFEDBC 100%); 
+	}
+	@else if $name == 'Dracula' {
+		@if $prefixes {
+			background: #DC2424;  
+			background: -webkit-linear-gradient(#{$direction}, #DC2424 0%,#4A569D 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #DC2424 0%, #4A569D 100%);  
+		}
+		background: linear-gradient(#{$direction}, #DC2424 0%,#4A569D 100%); 
+	}
+	@else if $name == 'Mantle' {
+		@if $prefixes {
+			background: #24C6DC;  
+			background: -webkit-linear-gradient(#{$direction}, #24C6DC 0%,#514A9D 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #24C6DC 0%, #514A9D 100%);  
+		}
+		background: linear-gradient(#{$direction}, #24C6DC 0%,#514A9D 100%); 
+	}
+	@else if $name == 'Titanium' {
+		@if $prefixes {
+			background: #283048;  
+			background: -webkit-linear-gradient(#{$direction}, #283048 0%,#859398 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #283048 0%, #859398 100%);  
+		}
+		background: linear-gradient(#{$direction}, #283048 0%,#859398 100%); 
+	}
+	@else if $name == 'Opa' {
+		@if $prefixes {
+			background: #3D7EAA;  
+			background: -webkit-linear-gradient(#{$direction}, #3D7EAA 0%,#FFE47A 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #3D7EAA 0%, #FFE47A 100%);  
+		}
+		background: linear-gradient(#{$direction}, #3D7EAA 0%,#FFE47A 100%); 
+	}
+	@else if $name == 'Sea Blizz' {
+		@if $prefixes {
+			background: #1CD8D2;  
+			background: -webkit-linear-gradient(#{$direction}, #1CD8D2 0%,#93EDC7 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #1CD8D2 0%, #93EDC7 100%);  
+		}
+		background: linear-gradient(#{$direction}, #1CD8D2 0%,#93EDC7 100%); 
+	}
+	@else if $name == 'Midnight City' {
+		@if $prefixes {
+			background: #232526;  
+			background: -webkit-linear-gradient(#{$direction}, #232526 0%,#414345 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #232526 0%, #414345 100%);  
+		}
+		background: linear-gradient(#{$direction}, #232526 0%,#414345 100%); 
+	}
+	@else if $name == 'Mystic' {
+		@if $prefixes {
+			background: #757F9A;  
+			background: -webkit-linear-gradient(#{$direction}, #757F9A 0%,#D7DDE8 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #757F9A 0%, #D7DDE8 100%);  
+		}
+		background: linear-gradient(#{$direction}, #757F9A 0%,#D7DDE8 100%); 
+	}
+	@else if $name == 'Shroom Haze' {
+		@if $prefixes {
+			background: #5C258D;  
+			background: -webkit-linear-gradient(#{$direction}, #5C258D 0%,#4389A2 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #5C258D 0%, #4389A2 100%);  
+		}
+		background: linear-gradient(#{$direction}, #5C258D 0%,#4389A2 100%); 
+	}
+	@else if $name == 'Moss' {
+		@if $prefixes {
+			background: #134E5E;  
+			background: -webkit-linear-gradient(#{$direction}, #134E5E 0%,#71B280 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #134E5E 0%, #71B280 100%);  
+		}
+		background: linear-gradient(#{$direction}, #134E5E 0%,#71B280 100%); 
+	}
+	@else if $name == 'Bora Bora' {
+		@if $prefixes {
+			background: #2BC0E4;  
+			background: -webkit-linear-gradient(#{$direction}, #2BC0E4 0%,#EAECC6 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #2BC0E4 0%, #EAECC6 100%);  
+		}
+		background: linear-gradient(#{$direction}, #2BC0E4 0%,#EAECC6 100%); 
+	}
+	@else if $name == 'Venice Blue' {
+		@if $prefixes {
+			background: #085078;  
+			background: -webkit-linear-gradient(#{$direction}, #085078 0%,#85D8CE 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #085078 0%, #85D8CE 100%);  
+		}
+		background: linear-gradient(#{$direction}, #085078 0%,#85D8CE 100%); 
+	}
+	@else if $name == 'Electric Violet' {
+		@if $prefixes {
+			background: #4776E6;  
+			background: -webkit-linear-gradient(#{$direction}, #4776E6 0%,#8E54E9 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #4776E6 0%, #8E54E9 100%);  
+		}
+		background: linear-gradient(#{$direction}, #4776E6 0%,#8E54E9 100%); 
+	}
+	@else if $name == 'Kashmir' {
+		@if $prefixes {
+			background: #614385;  
+			background: -webkit-linear-gradient(#{$direction}, #614385 0%,#516395 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #614385 0%, #516395 100%);  
+		}
+		background: linear-gradient(#{$direction}, #614385 0%,#516395 100%); 
+	}
+	@else if $name == 'Steel Gray' {
+		@if $prefixes {
+			background: #1F1C2C;  
+			background: -webkit-linear-gradient(#{$direction}, #1F1C2C 0%,#928DAB 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #1F1C2C 0%, #928DAB 100%);  
+		}
+		background: linear-gradient(#{$direction}, #1F1C2C 0%,#928DAB 100%); 
+	}
+	@else if $name == 'Mirage' {
+		@if $prefixes {
+			background: #16222A;  
+			background: -webkit-linear-gradient(#{$direction}, #16222A 0%,#3A6073 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #16222A 0%, #3A6073 100%);  
+		}
+		background: linear-gradient(#{$direction}, #16222A 0%,#3A6073 100%); 
+	}
+	@else if $name == 'Juicy Orange' {
+		@if $prefixes {
+			background: #FF8008;  
+			background: -webkit-linear-gradient(#{$direction}, #FF8008 0%,#FFC837 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #FF8008 0%, #FFC837 100%);  
+		}
+		background: linear-gradient(#{$direction}, #FF8008 0%,#FFC837 100%); 
+	}
+	@else if $name == 'Mojito' {
+		@if $prefixes {
+			background: #1D976C;  
+			background: -webkit-linear-gradient(#{$direction}, #1D976C 0%,#93F9B9 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #1D976C 0%, #93F9B9 100%);  
+		}
+		background: linear-gradient(#{$direction}, #1D976C 0%,#93F9B9 100%); 
+	}
+	@else if $name == 'Cherry' {
+		@if $prefixes {
+			background: #EB3349;  
+			background: -webkit-linear-gradient(#{$direction}, #EB3349 0%,#F45C43 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #EB3349 0%, #F45C43 100%);  
+		}
+		background: linear-gradient(#{$direction}, #EB3349 0%,#F45C43 100%); 
+	}
+	@else if $name == 'Pinky' {
+		@if $prefixes {
+			background: #DD5E89;  
+			background: -webkit-linear-gradient(#{$direction}, #DD5E89 0%,#F7BB97 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #DD5E89 0%, #F7BB97 100%);  
+		}
+		background: linear-gradient(#{$direction}, #DD5E89 0%,#F7BB97 100%); 
+	}
+	@else if $name == 'Sea Weed' {
+		@if $prefixes {
+			background: #4CB8C4;  
+			background: -webkit-linear-gradient(#{$direction}, #4CB8C4 0%,#3CD3AD 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #4CB8C4 0%, #3CD3AD 100%);  
+		}
+		background: linear-gradient(#{$direction}, #4CB8C4 0%,#3CD3AD 100%); 
+	}
+	@else if $name == 'Purple Paradise' {
+		@if $prefixes {
+			background: #1D2B64;  
+			background: -webkit-linear-gradient(#{$direction}, #1D2B64 0%,#F8CDDA 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #1D2B64 0%, #F8CDDA 100%);  
+		}
+		background: linear-gradient(#{$direction}, #1D2B64 0%,#F8CDDA 100%); 
+	}
+	@else if $name == 'Sunrise' {
+		@if $prefixes {
+			background: #FF512F;  
+			background: -webkit-linear-gradient(#{$direction}, #FF512F 0%,#F09819 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #FF512F 0%, #F09819 100%);  
+		}
+		background: linear-gradient(#{$direction}, #FF512F 0%,#F09819 100%); 
+	}
+	@else if $name == 'Aqua Marine' {
+		@if $prefixes {
+			background: #1A2980;  
+			background: -webkit-linear-gradient(#{$direction}, #1A2980 0%,#26D0CE 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #1A2980 0%, #26D0CE 100%);  
+		}
+		background: linear-gradient(#{$direction}, #1A2980 0%,#26D0CE 100%); 
+	}
+	@else if $name == 'Aubergine' {
+		@if $prefixes {
+			background: #AA076B;  
+			background: -webkit-linear-gradient(#{$direction}, #AA076B 0%,#61045F 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #AA076B 0%, #61045F 100%);  
+		}
+		background: linear-gradient(#{$direction}, #AA076B 0%,#61045F 100%); 
+	}
+	@else if $name == 'Bloody Mary' {
+		@if $prefixes {
+			background: #FF512F;  
+			background: -webkit-linear-gradient(#{$direction}, #FF512F 0%,#DD2476 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #FF512F 0%, #DD2476 100%);  
+		}
+		background: linear-gradient(#{$direction}, #FF512F 0%,#DD2476 100%); 
+	}
+	@else if $name == 'Mango Pulp' {
+		@if $prefixes {
+			background: #F09819;  
+			background: -webkit-linear-gradient(#{$direction}, #F09819 0%,#EDDE5D 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #F09819 0%, #EDDE5D 100%);  
+		}
+		background: linear-gradient(#{$direction}, #F09819 0%,#EDDE5D 100%); 
+	}
+	@else if $name == 'Frozen' {
+		@if $prefixes {
+			background: #403B4A;  
+			background: -webkit-linear-gradient(#{$direction}, #403B4A 0%,#E7E9BB 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #403B4A 0%, #E7E9BB 100%);  
+		}
+		background: linear-gradient(#{$direction}, #403B4A 0%,#E7E9BB 100%); 
+	}
+	@else if $name == 'Rose Water' {
+		@if $prefixes {
+			background: #E55D87;  
+			background: -webkit-linear-gradient(#{$direction}, #E55D87 0%,#5FC3E4 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #E55D87 0%, #5FC3E4 100%);  
+		}
+		background: linear-gradient(#{$direction}, #E55D87 0%,#5FC3E4 100%); 
+	}
+	@else if $name == 'Horizon' {
+		@if $prefixes {
+			background: #003973;  
+			background: -webkit-linear-gradient(#{$direction}, #003973 0%,#E5E5BE 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #003973 0%, #E5E5BE 100%);  
+		}
+		background: linear-gradient(#{$direction}, #003973 0%,#E5E5BE 100%); 
+	}
+	@else if $name == 'Lemon Twist' {
+		@if $prefixes {
+			background: #3CA55C;  
+			background: -webkit-linear-gradient(#{$direction}, #3CA55C 0%,#B5AC49 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #3CA55C 0%, #B5AC49 100%);  
+		}
+		background: linear-gradient(#{$direction}, #3CA55C 0%,#B5AC49 100%); 
+	}
+	@else if $name == 'Emerald Water' {
+		@if $prefixes {
+			background: #348F50;  
+			background: -webkit-linear-gradient(#{$direction}, #348F50 0%,#56B4D3 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #348F50 0%, #56B4D3 100%);  
+		}
+		background: linear-gradient(#{$direction}, #348F50 0%,#56B4D3 100%); 
+	}
+	@else if $name == 'Intuitive Purple' {
+		@if $prefixes {
+			background: #DA22FF;  
+			background: -webkit-linear-gradient(#{$direction}, #DA22FF 0%,#9733EE 100%);  
+			background:    -moz-linear-gradient(#{$direction}, #DA22FF 0%, #9733EE 100%);  
+		}
+		background: linear-gradient(#{$direction}, #DA22FF 0%,#9733EE 100%); 
+	}
+	@else {
+		background: #000;  
+	}
+}
